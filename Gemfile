@@ -11,6 +11,10 @@ gem 'oauth'
 gem 'twitter'
 gem 'httparty'
 
+# Use RGeo, a geospatial data library for Ruby, and related modules
+gem 'rgeo'
+gem 'rgeo-geojson'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
