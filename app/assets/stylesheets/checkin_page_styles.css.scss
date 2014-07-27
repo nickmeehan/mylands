@@ -1,3 +1,79 @@
+body {
+  background-color: #708A89;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+header h1 {
+  color: #FFFFFF;
+  margin: 0;
+  text-align: center;
+}
 #map {
   height: 180px;
 }
+.checkin-location {
+  height: 200px;
+  width: 100%;
+}
+.hidden {
+  display: none;
+}
+.artist-details {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FFFFFF;
+}
+.exit {
+  height: 50px;
+  width: 50px;
+  float: right;
+}
+.exit img {
+  width: 50px;
+}
+.details-head {
+  width: 100%;
+  height: 50px;
+}
+.artist-info {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img.artist-photo {
+  width: 400px;
+  border: solid 2px #FFFFFF;
+  display: block;
+  margin: 50px auto;
+  @media (max-width: 400px) {
+    width: 100%;
+  }
+}
+.checkin-container {
+  margin: 0 auto;
+  width: 900px;
+  position: relative;
+  top: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  border: solid 2px #FFFFFF;
+  @media (max-width: 900px) {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+/* mobile */
