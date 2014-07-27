@@ -6,6 +6,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(session[:user_id])
+    @checkin = Checkin.new
   end
 
   def new

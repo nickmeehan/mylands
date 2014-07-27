@@ -8,6 +8,8 @@ Mylands::Application.routes.draw do
   get '/auth', to:'users#auth'
   resources :users
 
+  resources :checkins, only: [:create]
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
