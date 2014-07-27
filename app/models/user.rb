@@ -1,4 +1,5 @@
 class User < ActiveRecord::Base
+  has_many :checkins
 
   def self.define_attributes(params)
     return {

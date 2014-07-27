@@ -4,6 +4,7 @@ class CreateLocations < ActiveRecord::Migration
       t.string :name
       t.string :type
       t.polygon :boundary, srid: 4326
+      t.timestamps
     end
   end
 end
