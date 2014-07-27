@@ -26,8 +26,8 @@ setlists_raw.each do |setlist|
     location_id = location.id
     artist_id = artist.id
     setlist["shows"].each do |show|
-      start_time = DateTime.parse("#{show["date"]} #{show["start_time"]} PM")
-      end_time = DateTime.parse("#{show["date"]} #{show["end_time"]} PM")
+      start_time = DateTime.parse("#{show["date"]} #{show["start_time"]} PM -0700")
+      end_time = DateTime.parse("#{show["date"]} #{show["end_time"]} PM -0700")
       Performance.create(location_id: location_id, artist_id: artist_id, start_time: start_time, end_time: end_time)
     end
   end
