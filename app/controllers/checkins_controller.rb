@@ -1,6 +1,15 @@
 class CheckinsController < ApplicationController
   before_action :current_user
 
+  def user_checkins
+    @checkins = current_user.checkins
+    data = []
+    @checkins.each do |checkin|
+      data << checkin.get_data
+    end
+    render :json => data
+  end
+
   def create
     factory = Location.rgeo_factory_for_column(:boundary)
 

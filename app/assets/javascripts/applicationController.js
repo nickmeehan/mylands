@@ -11,6 +11,7 @@ ApplicationController.prototype = {
     this.bindListeners();
     this.map = L.mapbox.map('map', 'nickmeehan.j2n2k9kp', this.mapOptions)
     this.mapView.overlayMapImage(this.map)
+    this.getUserCheckins()
   },
   bindListeners: function () {
     var $findmeButton = this.locationView.getFindmeButtonSelector();
@@ -23,11 +24,14 @@ ApplicationController.prototype = {
   sendCheckin: function (clickEvent, lat, lng, timestamp) {
     var checkin = new Checkin(lat, lng, timestamp);
     this.checkins.push(checkin)
+    // var datetime = new Date(2014, 7, 8, 18, 20,0,0)
+    // console.log(datetime)
     var ajaxRequest = $.ajax({
       url: clickEvent.target.form.action,
       type: clickEvent.target.form.method,
       // data: new Checkin(37.768545, -122.4924813, timestamp)
-      data: checkin
+      data: new Checkin(37.766642 + Math.random()*.0042271, -122.4956086+Math.random()*.013415, datetime)
+      // data: checkin
     })
     ajaxRequest.done(this.handleCheckinSuccess.bind(this));
     ajaxRequest.fail(this.handleCheckinError.bind(this));
@@ -42,5 +46,21 @@ ApplicationController.prototype = {
   getLastCheckin: function() {
     var lastCheckinPosition = this.checkins.length - 1
     return this.checkins[lastCheckinPosition]
+  },
+  getUserCheckins: function(){
+    var ajaxRequest = $.ajax({
+      url: '/user_checkins',
+      type: 'get'
+    })
+    ajaxRequest.done(this.handleUserCheckinsSuccess.bind(this));
+    ajaxRequest.fail(this.handleUserCheckinsError.bind(this));
+  },
+  handleUserCheckinsSuccess: function(response){
+    for(var i = 0; i < response.length; i++){
+      this.mapView.appendMarker(this.map, null, response[i])
+    }
+  },
+  handleUserCheckinsError: function(response){
+
   }
 }
