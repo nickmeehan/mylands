@@ -1,6 +1,15 @@
-<%= form_for @checkin do |f| %>
-  <%= f.submit 'Find Me' %>
-<% end %>
+<div class="stripe nav">
+	<div class="wrapper">
+		<div id="left-btn">
+			<%= form_for @checkin do |f| %>
+			  <%= f.submit 'check in', id: "checkin", class: "ol-orange btn" %>
+			<% end %>
+		</div>
+		<div id="right-btn">
+		<%= link_to 'playlist', "/users/#{@user.id}/checkins", class: "btn ol-gray" %>
+		</div>
+	</div>
+</div>
 
 <%= link_to 'My Checkins', "/users/#{@user.id}/checkins" %>
 
