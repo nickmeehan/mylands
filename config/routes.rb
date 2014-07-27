@@ -5,6 +5,7 @@ Mylands::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
   root 'users#index'
+  get '/auth', to:'users#auth'
   resources :users
 
   # Example of regular route:

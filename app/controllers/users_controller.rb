@@ -33,11 +33,12 @@ class UsersController < ApplicationController
     @existing_user = User.find_by_access_token(@access_token.token)
 
     if @existing_user != nil
-      # session[:user_id] = @existing_user.id
+      session[:user_id] = @existing_user.id
     else
       p @access_token
-      # @user = User.create(@acc)
-      # session[:user_id] = @user.id
+      user_attributes = User.define_attributes(@access_token.params)
+      @user = User.create(user_attributes)
+      session[:user_id] = @user.id
     end
     redirect_to show
   end
