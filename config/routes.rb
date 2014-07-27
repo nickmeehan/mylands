@@ -6,6 +6,7 @@ Mylands::Application.routes.draw do
   # root 'welcome#index'
   root 'users#index'
   get '/auth', to:'users#auth'
+  get '/users/:id/checkins', to:'users#checkins'
   resources :users
 
   resources :checkins, only: [:create]

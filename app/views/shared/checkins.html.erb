@@ -1,0 +1,39 @@
+<header class='ol-orange'>
+  <h1>
+    MyLands Playlist
+  </h1>
+</header>
+<div class='checkin-container ol-brown'>
+  <% @checkins.each do |checkin| %>
+    <% unless checkin.artist.nil? %>
+      <div class="checkin-location checkin-artist" data-echonest="#{checkin.artist.echonest_id}">
+        <h1><%= checkin.location.name %></h1>
+        <h3><%= "#{checkin.artist.name} - #{checkin.created_at.strftime("%A %b %d %Y")}" %></h3>
+      </div>
+    <% else %>
+        <div class="checkin-location">
+          <h1><%= checkin.location.name %></h1>
+          <h3><%= "#{checkin.created_at.strftime("%A %b %d %Y")}" %></h3>
+        </div>
+    <% end %>
+  <% end %>
+<div class="checkin-location checkin-artist" data-echonest="ARRH63Y1187FB47783">
+  <h1>Turtle</h1>
+  <h3>Artist - Whatever time</h3>
+</div>
+</div>
+
+
+<div class="artist-details hidden ol-gray">
+  <div class="details-head">
+    <div class="exit">
+      <%= image_tag 'x.png' %>
+    </div>
+  </div>
+  <div class="artist-info">
+    <h1 class="artist-name"></h1>
+    <h3 class="artist-genre"></h3>
+    <div class="play-button"></div>
+  </div>
+  <img src='' class="artist-photo"/>
+</div>
