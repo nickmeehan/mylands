@@ -5,6 +5,7 @@ gem 'rails', '4.0.2'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
+gem 'activerecord-postgis-adapter' # provides a special ActiveRecord adapter for talking to PostGIS and handling geospatial data
 
 gem 'oauth'
 gem 'twitter'
