@@ -4,23 +4,29 @@
   </h1>
 </header>
 <div class='checkin-container ol-brown'>
-  <% @checkins.each do |checkin| %>
-    <% unless checkin.artist.nil? %>
-      <div class="checkin-location checkin-artist" data-echonest="#{checkin.artist.echonest_id}">
-        <h1><%= checkin.location.name %></h1>
-        <h3><%= "#{checkin.artist.name} - #{checkin.created_at.strftime("%A %b %d %Y")}" %></h3>
-      </div>
-    <% else %>
-        <div class="checkin-location">
-          <h1><%= checkin.location.name %></h1>
-          <h3><%= "#{checkin.created_at.strftime("%A %b %d %Y")}" %></h3>
-        </div>
-    <% end %>
-  <% end %>
-<div class="checkin-location checkin-artist" data-echonest="ARRH63Y1187FB47783">
-  <h1>Turtle</h1>
-  <h3>Artist - Whatever time</h3>
-</div>
+  <div class="checkin-location checkin-artist" data-echonest="ARRH63Y1187FB47783">
+      <h1>Lands End Stage</h1>
+      <h3>Kanye West</h3>
+    </div>
+  <div class="checkin-location checkin-artist" data-echonest="ARO4DKQ1187B999536">
+    <h1>Panhandle Stage</h1>
+    <h3>Typhoon</h3>
+  </div>
+  <div class="checkin-location checkin-artist" data-echonest="ARL9MID1187B9ABA14">
+    <h1>Sutro Stage</h1>
+    <h3>Phosphorescent</h3>
+  </div>
+  <div class="checkin-location">
+    <h1>Beer Lands</h1>
+  </div>
+  <div class="checkin-location checkin-artist" data-echonest="ARAI3JW1187FB52DE1">
+    <h1>Twin Peaks Stage</h1>
+    <h3>Tegan & Sara</h3>
+  </div>
+  <div class="checkin-location checkin-artist" data-echonest="ARVG4OK1187B9B6BD3">
+    <h1>Lands End Stage</h1>
+    <h3>The Killers</h3>
+  </div>
 </div>
 
 
