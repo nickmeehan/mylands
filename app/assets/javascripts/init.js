@@ -16,6 +16,6 @@ var mapOptions = {
 }
 
 var mapOverlay = {
-  imageUrl: 'http://i.imgur.com/My9ribO.png',
-  imageBounds: [[37.766342,-122.4959086], [37.7701691,-122.483093]]
+  imageUrl: 'http://i.imgur.com/VuN36bN.png',
+  imageBounds: [[37.766642,-122.4956086], [37.7708691,-122.482193]]
 }
