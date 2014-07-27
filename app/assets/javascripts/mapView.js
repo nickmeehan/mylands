@@ -7,19 +7,19 @@ MapView.prototype = {
   overlayMapImage: function(map) {
     L.imageOverlay(this.imageUrl, this.imageBounds).addTo(map)
   },
-  appendMarker: function(map, checkin) {
+  appendMarker: function(map, checkin, response) {
     L.mapbox.featureLayer({
         type: 'Feature',
         geometry: {
             type: 'Point',
             coordinates: [
-              checkin.longitude,
-              checkin.latitude
+              response.longitude,
+              response.latitude
             ]
         },
         properties: {
-            title: 'Peregrine Espresso',
-            description: '1718 14th St NW, Washington, DC',
+            title: response.location,
+            description: response.artist,
             'marker-size': 'large',
             'marker-color': '#000'
         }

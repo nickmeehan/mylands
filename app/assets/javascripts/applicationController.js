@@ -26,6 +26,7 @@ ApplicationController.prototype = {
     var ajaxRequest = $.ajax({
       url: clickEvent.target.form.action,
       type: clickEvent.target.form.method,
+      // data: new Checkin(37.768545, -122.4924813, timestamp)
       data: checkin
     })
     ajaxRequest.done(this.handleCheckinSuccess.bind(this));
@@ -33,7 +34,7 @@ ApplicationController.prototype = {
   },
   handleCheckinSuccess: function (response) {
     var checkin = this.getLastCheckin()
-    this.mapView.appendMarker(this.map, checkin)
+    this.mapView.appendMarker(this.map, checkin, response)
   },
   handleCheckinError: function (response) {
     alert('Sorry, we couldn\'t find you.')
