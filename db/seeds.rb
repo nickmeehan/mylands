@@ -14,3 +14,19 @@ artists_raw = JSON.parse(artists_json)
 artists_raw.each do |artist|
   Artist.create(name: artist["artist"], url: artist["link"], spotify_id: artist["ids"]["spotify"], gracenote_id: artist["ids"]["gracenote"], openaura_id: artist["ids"]["openaura"], outside_id: artist["ids"]["outside"], rdio_id: artist["ids"]["rdio"], musicbrainz_id: artist["ids"]["musicbrainz"], echonest_id: artist["ids"]["echonest"] )
 end
+
+setlists_json = open("lib/assets/sets_json.txt").read
+setlists_raw = JSON.parse(setlists_json)
+setlists_raw.each do |setlist|
+  if setlist["shows"].length != 0
+    location = Location.find_by(name: setlist["shows"].first["stage"])
+    artist = Artist.find_by(name: setlist["artist"])
+    location_id = location.id
+    artist_id = artist.id
+    setlist["shows"].each do |show|
+      start_time = DateTime.parse("#{show["date"]} #{show["start_time"]} PM")
+      end_time = DateTime.parse("#{show["date"]} #{show["end_time"]} PM")
+      Performance.create(location_id: location_id, artist_id: artist_id, start_time: start_time, end_time: end_time)
+    end
+  end
+end
