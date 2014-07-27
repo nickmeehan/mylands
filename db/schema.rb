@@ -11,10 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140727050200) do
+ActiveRecord::Schema.define(version: 20140727080416) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "postgis"
 
   create_table "artists", force: true do |t|
     t.string   "name"
@@ -29,6 +30,37 @@ ActiveRecord::Schema.define(version: 20140727050200) do
     t.datetime "updated_at"
     t.string   "url"
   end
+
+  create_table "checkins", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "location_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.spatial  "position",    limit: {:srid=>4326, :type=>"point"}
+  end
+
+  add_index "checkins", ["location_id"], :name => "index_checkins_on_location_id"
+  add_index "checkins", ["user_id"], :name => "index_checkins_on_user_id"
+
+  create_table "locations", force: true do |t|
+    t.string   "name"
+    t.string   "type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.spatial  "boundary",   limit: {:srid=>4326, :type=>"polygon"}
+  end
+
+  create_table "performances", force: true do |t|
+    t.datetime "start_time"
+    t.datetime "end_time"
+    t.integer  "artist_id"
+    t.integer  "location_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "performances", ["artist_id"], :name => "index_performances_on_artist_id"
+  add_index "performances", ["location_id"], :name => "index_performances_on_location_id"
 
   create_table "users", force: true do |t|
     t.string   "username"
