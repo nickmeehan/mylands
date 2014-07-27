@@ -11,3 +11,16 @@
  *= require_self
  *= require_tree .
  */
+
+
+.ol-brown {
+  background-color: #45332F;
+}
+
+.ol-orange {
+  background-color: #EE5E23;
+}
+
+.ol-gray {
+  background-color: #708A89;
+}
