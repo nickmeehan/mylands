@@ -10,35 +10,32 @@ class CheckinsController < ApplicationController
     here = factory.point(longitude, latitude)
     now = DateTime.parse(params["timestamp"])
 
+    location = nil
+
     Location.all.each do |loc|
       if loc.boundary && loc.boundary.contains?(here)
-        if loc.performances
-          performances = loc.performances
-          performances.each do |performance|
-            if now >= performance.start_time && performance.end_time >= now
-              _performance = performance
-              checkin = loc.checkins.new checkins_params
-              checkin.user_id = @current_user.id
-              checkin.position = here
-              checkin.save
-            end
-          end
-          render json: { location: loc, artist: _performance.artist }
-        else
-          checkin = loc.checkins.new checkins_params
-          checkin.user_id = @current_user.id
-          checkin.position = here
-          checkin.save
-          render json: { location: loc, artist: nil }
-        end
+        location = loc
       end
     end
-    # something to respond with an error ex. you are not at Outside Lands
-    redirect_to @current_user
+
+    if location
+      checkin = location.checkins.new checkins_params
+      checkin.user_id = current_user.id
+      checkin.position = here
+      checkin.save
+      performance = location.performances.where("start_time <= ? AND end_time >= ?", now, now).first
+      if performance
+        render :json => {location: location.name, artist: performance.artist, latitude: latitude, longitude: longitude }
+      else
+        render :json => {location: location.name, artist: nil, latitude: latitude, longitude: longitude }
+      end
+    else
+      render :text => "You are not inside Outside Lands!", status: :unprocessable_entity
+    end
   end
 
 private
   def checkins_params
-    params.require(:checkins).permit(:user_id, :location_id, :position)
+    params.permit(:user_id, :location_id, :position)
   end  
 end
