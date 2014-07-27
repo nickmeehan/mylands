@@ -30,6 +30,7 @@ header h1 {
   left: 0;
   right: 0;
   color: #FFFFFF;
+  overflow: hidden;
 }
 .exit {
   height: 50px;
@@ -44,6 +45,8 @@ header h1 {
   height: 50px;
 }
 .artist-info {
+  position: relative;
+  top: 0px;
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -53,9 +56,9 @@ img.artist-photo {
   width: 400px;
   border: solid 2px #FFFFFF;
   display: block;
-  margin: 50px auto;
+  margin: 20px auto;
   @media (max-width: 400px) {
-    width: 100%;
+    display: none;
   }
 }
 .checkin-container {
@@ -73,4 +76,6 @@ img.artist-photo {
   }
 }
 
-/* mobile */
+iframe {
+  margin: 20px 0px;
+}
