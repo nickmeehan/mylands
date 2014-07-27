@@ -11,6 +11,9 @@ gem 'oauth'
 gem 'twitter'
 gem 'httparty'
 
+gem 'pry'
+gem 'pry-rails'
+
 # Use RGeo, a geospatial data library for Ruby, and related modules
 gem 'rgeo'
 gem 'rgeo-geojson'
