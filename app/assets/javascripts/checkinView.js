@@ -10,9 +10,9 @@ CheckinView.prototype = {
   getExitButton: function () {
     return $(this.exitButton);
   },
-  showArtistDetails: function (artist) {
+  showArtistDetails: function (artist, href) {
     $('.artist-details').removeClass('hidden');
-    console.log($('.artist-details .artist-name'));
+    $('iframe').attr('src', href)
     $('.artist-details .artist-name').text(artist.name);
     $('.artist-details .artist-genre').text(artist.genres[0].name.capitalize());
     $('.artist-photo').attr('src',artist.images[0].url);

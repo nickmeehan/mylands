@@ -5,6 +5,7 @@ function ApplicationController (locationView, mapView, mapOptions, checkinView) 
   this.mapOptions = mapOptions;
   this.map;
   this.checkinView = checkinView;
+  this.artist;
 }
 
 ApplicationController.prototype = {
@@ -58,14 +59,28 @@ ApplicationController.prototype = {
     ajaxRequest.fail(this.handleEchonestError.bind(this));
   },
   handleEchonestSuccess: function (response) {
-    console.log(response.response.artist);
-    console.log(response.response.artist.genres);
-    this.checkinView.showArtistDetails(response.response.artist);
+    var artist = response.response.artist;
+    this.artist = artist
+    var artist_name = artist.name.split(' ').join('%20');
+    var song_title = artist.songs[0].title.split(' ').join('%20');
 
-    //var info = JSON.parse(response);
-    //console.log(info);
+    var ajaxRequest = $.ajax({
+      url: 'http://developer.echonest.com/api/v4/song/search?api_key=MJKPEKGWSRULLKC5V&title='+song_title+'&artist='+artist_name+'&bucket=id:spotify&results=5&bucket=tracks',
+      type: 'get'
+    })
+    ajaxRequest.done(this.handleSongSuccess.bind(this));
+    ajaxRequest.fail(this.handleSongError.bind(this));
   },
   handleEchonestError: function (response) {
+    console.log(response);
+  },
+  handleSongSuccess: function (response) {
+    console.log(response);
+    var spotifyTrackId = response.response.songs[0].tracks[0].foreign_id;
+    var href = 'https://embed.spotify.com/?uri=' + spotifyTrackId
+    this.checkinView.showArtistDetails(this.artist, href);
+  },
+  handleSongError: function (response) {
     console.log(response);
   },
   dismissArtistDetails: function (event) {
