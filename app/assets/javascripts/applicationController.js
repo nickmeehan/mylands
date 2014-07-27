@@ -1,6 +1,6 @@
 function ApplicationController (locationView, mapView, mapOptions) {
   this.locationView = locationView;
-  this.view = mapView;
+  this.mapView = mapView;
   this.checkins = []
   this.mapOptions = mapOptions;
   this.map;
@@ -10,7 +10,7 @@ ApplicationController.prototype = {
   init: function () {
     this.bindListeners();
     this.map = L.mapbox.map('map', 'nickmeehan.j2n2k9kp', this.mapOptions)
-    this.view.overlayMapImage(this.map)
+    this.mapView.overlayMapImage(this.map)
   },
   bindListeners: function () {
     var $findmeButton = this.locationView.getFindmeButtonSelector();
@@ -33,7 +33,7 @@ ApplicationController.prototype = {
   },
   handleCheckinSuccess: function (response) {
     var checkin = this.getLastCheckin()
-    this.view.appendMarker(this.map, checkin)
+    this.mapView.appendMarker(this.map, checkin)
   },
   handleCheckinError: function (response) {
     alert('Sorry, we couldn\'t find you.')
