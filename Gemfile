@@ -14,6 +14,9 @@ gem 'httparty'
 gem 'pry'
 gem 'pry-rails'
 
+# rails_12factor provides static asset serving and logging on Heroku
+gem 'rails_12factor', group: :production
+
 # Use RGeo, a geospatial data library for Ruby, and related modules
 gem 'rgeo'
 gem 'rgeo-geojson'
@@ -52,7 +55,7 @@ end
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
