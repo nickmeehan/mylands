@@ -2,13 +2,14 @@ class Checkin < ActiveRecord::Base
   belongs_to :user
   belongs_to :location
 
-  def artist_name
+  def artist
     performance = self.location.performances.where("start_time <= ? AND end_time >= ?", created_at, created_at).first
-    performance ? performance.artist.name : nil
+    performance ? performance.artist : nil
   end
 
   def get_data
-    {location: self.location.name, artist: self.artist_name, latitude: self.get_lat_lng[:latitude], longitude: self.get_lat_lng[:longitude], time: self.created_at}
+    artist_name = self.artist ? self.artist.name : nil
+    {location: self.location.name, artist: artist_name, latitude: self.get_lat_lng[:latitude], longitude: self.get_lat_lng[:longitude], time: self.created_at}
   end
 
   def get_lat_lng
