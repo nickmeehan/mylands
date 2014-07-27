@@ -19,12 +19,14 @@ setlists_json = open("lib/assets/sets_json.txt").read
 setlists_raw = JSON.parse(setlists_json)
 setlists_raw.each do |setlist|
   if setlist["shows"].length != 0
-    stage_id = Stage.find_by(name: setlist["shows"].first["stage"])
-    artist_id = Artist.find_by(name: setlist["artist"])
+    location = Location.find_by(name: setlist["shows"].first["stage"])
+    artist = Artist.find_by(name: setlist["artist"])
+    location_id = location.id
+    artist_id = artist.id
     setlist["shows"].each do |show|
       start_time = DateTime.parse("#{show["date"]} #{show["start_time"]} PM")
       end_time = DateTime.parse("#{show["date"]} #{show["end_time"]} PM")
-      Performance.create(stage_id: stage_id, artist_id: artist_id, start_time: start_time, end_time: end_time)
+      Performance.create(location_id: location_id, artist_id: artist_id, start_time: start_time, end_time: end_time)
     end
   end
 end
