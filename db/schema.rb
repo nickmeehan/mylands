@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140727061406) do
+ActiveRecord::Schema.define(version: 20140727050200) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,6 +19,20 @@ ActiveRecord::Schema.define(version: 20140727061406) do
   create_table "checkins", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "artists", force: true do |t|
+    t.string   "name"
+    t.string   "spotify_id"
+    t.string   "gracenote_id"
+    t.string   "openaura_id"
+    t.string   "outside_id"
+    t.string   "rdio_id"
+    t.string   "musicbrainz_id"
+    t.string   "echonest_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "url"
   end
 
   create_table "users", force: true do |t|

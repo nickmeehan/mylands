@@ -1,0 +1,1185 @@
+[
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/kanye-west",
+        "ids": {
+            "spotify": "spotify:artist:5K4W6rqBFWDnAN6FQUkS6x",
+            "gracenote": "140643862-9BCF9726FFBE8904A58D8DC4B995D39B",
+            "openaura": "52991f89e4b0bd2cefd3a2cd",
+            "outside": "42028",
+            "rdio": "r20227",
+            "musicbrainz": "164f0d73-1234-4e2c-8743-d77bf2191051",
+            "echonest": "ARRH63Y1187FB47783"
+        },
+        "artist": "Kanye West"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/arctic-monkeys",
+        "ids": {
+            "spotify": "spotify:artist:7Ln80lUS6He07XvHI8qqHH",
+            "gracenote": "367730686-04DDDFA122BA087EE3BBD47DA8D35F8C",
+            "openaura": "52991fe2e4b0bd2cefd3f786",
+            "outside": "12647",
+            "rdio": "r85092",
+            "musicbrainz": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a",
+            "echonest": "ARM0P6Z1187FB4D466"
+        },
+        "artist": "Arctic Monkeys"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/disclosure",
+        "ids": {
+            "spotify": "spotify:artist:6nS5roXSAGhTGr34W6n7Et",
+            "gracenote": "343671210-0F2EAA516A1D4DB488C09B821067825F",
+            "openaura": "5299207ee4b0bd2cefd48fc1",
+            "outside": "134093",
+            "rdio": "r3928527",
+            "musicbrainz": "ae65c507-d9a0-4d42-9a6c-2b1f82158b9f",
+            "echonest": "ARPCATO12B3B3540E2"
+        },
+        "artist": "Disclosure"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/tegan-and-sara",
+        "ids": {
+            "spotify": "spotify:artist:5e1BZulIiYWPRm8yogwUYH",
+            "gracenote": "319615338-C62A1BAA48A22EDE8A5AADE235DE94C6",
+            "openaura": "52991ef4e4b0bd2cefd3164d",
+            "outside": "110079",
+            "rdio": "r86700",
+            "musicbrainz": "d13f0f47-36f9-4661-87fe-2de56f45c649",
+            "echonest": "ARAI3JW1187FB52DE1"
+        },
+        "artist": "Tegan & Sara"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/tedeschi-trucks-band",
+        "ids": {
+            "spotify": "spotify:artist:2gFsmDBM0hkoZPmrO5EdyO",
+            "gracenote": "243363249-4F2577935F836F44ACF8B94475E22BD7",
+            "openaura": "52991963e4b0bd2cefcda89e",
+            "outside": "175886",
+            "rdio": "r956872",
+            "musicbrainz": "e33e1ccf-a3b9-4449-a66a-0091e8f55a60",
+            "echonest": "ARUWXHX12F54FAD86C"
+        },
+        "artist": "Tedeschi Trucks Band"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/chromeo",
+        "ids": {
+            "spotify": "spotify:artist:2mV8aJphiSHYJf43DxL7Gt",
+            "gracenote": "129809126-520660B5B2CF818D9497260C9258E8A4",
+            "openaura": "52991e0fe4b0bd2cefd23c53",
+            "outside": "37193",
+            "rdio": "r89199",
+            "musicbrainz": "647221d0-f6b1-4e03-924c-c59b8059536f",
+            "echonest": "ARAGT961187FB4193B"
+        },
+        "artist": "Chromeo"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/kacey-musgraves",
+        "ids": {
+            "spotify": "spotify:artist:70kkdajctXSbqSMJbQO424",
+            "gracenote": "325534800-6F0A05AFD945EFD6208D6FFCD65CF8EF",
+            "openaura": "529921c2e4b0bd2cefd5b0ab",
+            "outside": "42873",
+            "rdio": "r350301",
+            "musicbrainz": "d1393ecb-431b-4fde-a6ea-d769f2f040cb",
+            "echonest": "AROJNKE11EB9C8253F"
+        },
+        "artist": "Kacey Musgraves"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/grouplove",
+        "ids": {
+            "spotify": "spotify:artist:3kVUvbeRdcrqQ3oHk5hPdx",
+            "gracenote": "250018849-CC9B5A64FD9B7D69CD5CA806DA1FBF61",
+            "openaura": "52991ea9e4b0bd2cefd2cb9d",
+            "outside": "86118",
+            "rdio": "r768041",
+            "musicbrainz": "d8e41375-bd8d-4e39-9da7-f0c171e97086",
+            "echonest": "ARLJFSL12D7AF58D83"
+        },
+        "artist": "Grouplove"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/nicki-bluhm",
+        "ids": {
+            "outside": "113541"
+        },
+        "artist": "Nicki Bluhm and The Gramblers"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/phosphorescent",
+        "ids": {
+            "spotify": "spotify:artist:57kIMCLPgkzQlXjblX7XXP",
+            "gracenote": "323528182-4F2DD7A14777D82DEAF731A2895FF9FE",
+            "openaura": "52991cb4e4b0bd2cefd0f19e",
+            "outside": "41211",
+            "rdio": "r86597",
+            "musicbrainz": "739da2f1-0741-4c60-a6ed-f42d49bf2eb1",
+            "echonest": "ARL9MID1187B9ABA14"
+        },
+        "artist": "Phosphorescent"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/run-the-jewels",
+        "ids": {
+            "outside": "568121"
+        },
+        "artist": "Run the Jewels (El-P & Killer Mike)"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/holy-ghost",
+        "ids": {
+            "spotify": "spotify:artist:2Vhc7Y0Kc6HzMC6glKM4h6",
+            "gracenote": "370209532-8FC983AAA2C78433D40898FDBB6ACEA8",
+            "openaura": "529921f7e4b0bd2cefd5dea1",
+            "outside": "47836",
+            "rdio": "r224436",
+            "musicbrainz": "3c0d5463-6688-4f4a-8273-a191657d8084",
+            "echonest": "AR3Q2FQ1187FB5CAFE"
+        },
+        "artist": "Holy Ghost!"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/warpaint",
+        "ids": {
+            "spotify": "spotify:artist:3AmgGrYHXqgbmZ2yKoIVzO",
+            "gracenote": "194070283-7B083762EAC9753BAA837CEE43DE43E3",
+            "openaura": "52991cc2e4b0bd2cefd0fe75",
+            "outside": "53454",
+            "rdio": "r429509",
+            "musicbrainz": "cf82a38f-9413-4333-bacb-ca5b6db95794",
+            "echonest": "ARCHKFC12420783A79"
+        },
+        "artist": "Warpaint"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/typhoon",
+        "ids": {
+            "spotify": "spotify:artist:6kBlEsdNeNW2qnmW56xDhx",
+            "gracenote": "204858210-0E697FAA36A452ABCD2F2443BF1D837A",
+            "openaura": "52991a46e4b0bd2cefce8b5a",
+            "outside": "107180",
+            "rdio": "r2776312",
+            "musicbrainz": "59fc6a32-6f05-4590-9a8d-c8bac31d474c",
+            "echonest": "ARO4DKQ1187B999536"
+        },
+        "artist": "Typhoon"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/greensky-bluegrass",
+        "ids": {
+            "spotify": "spotify:artist:33bzrYoIWLx5uox3y0VtHn",
+            "openaura": "52991f53e4b0bd2cefd36ee8",
+            "outside": "48059",
+            "rdio": "r2516244",
+            "musicbrainz": "199596a3-a1af-49f8-8795-259eff8461fb",
+            "echonest": "ARPPZAK11EB9C81A2E"
+        },
+        "artist": "Greensky Bluegrass"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/bleachers",
+        "ids": {
+            "spotify": "spotify:artist:4GvRwJcjpFXkO2KPypdLvD",
+            "openaura": "52991e54e4b0bd2cefd27ac3",
+            "outside": "556085",
+            "rdio": "r708074",
+            "musicbrainz": "1ccd1da1-f6e0-42a7-b222-81051dae89ad",
+            "echonest": "AR2Z5851187FB3F564"
+        },
+        "artist": "Bleachers"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/soul-rebels",
+        "ids": {
+            "spotify": "spotify:artist:10NEMYLJwVvYSvtvZn5Ipz",
+            "openaura": "52991e6ce4b0bd2cefd291ba",
+            "outside": "196879",
+            "rdio": "r548240",
+            "musicbrainz": "31ef1bb0-88a2-40ed-9a56-089eea68f7c2",
+            "echonest": "ARWNTVV11F4C83D3A1"
+        },
+        "artist": "The Soul Rebels"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/bear-hands",
+        "ids": {
+            "spotify": "spotify:artist:3ViZST9PgFoieuOHY2GZMp",
+            "gracenote": "379995436-DDA423A392629F3F8D0ED489C079FC90",
+            "openaura": "529918f6e4b0bd2cefcd36a6",
+            "outside": "41275",
+            "rdio": "r347726",
+            "musicbrainz": "6e73e900-c27f-4893-a6db-32f23306a841",
+            "echonest": "ARBPOTO12086C1723E"
+        },
+        "artist": "Bear Hands"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/mikal-cronin",
+        "ids": {
+            "spotify": "spotify:artist:6QobJ3vnalBTlsdOrvQTIt",
+            "gracenote": "328054620-723B32C0A9907532063587F5F76E6076",
+            "openaura": "529921cae4b0bd2cefd5b593",
+            "outside": "219750",
+            "rdio": "r2702590",
+            "musicbrainz": "c1a217e0-4b3e-46d7-9613-6a14c9e70895",
+            "echonest": "ARGZBLE11C8A421758"
+        },
+        "artist": "Mikal Cronin"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/medicine-for-the-people",
+        "ids": {
+            "spotify": "spotify:artist:35fFUv2850L9CQjjNrLBpb",
+            "outside": "204919",
+            "echonest": "ARSQBDB13EBECA065F",
+            "rdio": "r2961928"
+        },
+        "artist": "Nahko and Medicine for the People"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/aer",
+        "ids": {
+            "spotify": "spotify:artist:25hbSOMmbhgqvonjC876UJ",
+            "gracenote": "392691261-815112EF2042E3B82E7A73FF976BCF5A",
+            "openaura": "52991af2e4b0bd2cefcf38db",
+            "outside": "138972",
+            "musicbrainz": "cc54c3bf-ecb1-463d-953a-e5d1496f3c86",
+            "echonest": "AR1P4XM1187FB40368"
+        },
+        "artist": "Aer"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/night-terrors-of-1927",
+        "ids": {
+            "spotify": "spotify:artist:7m3fe3erw9iO9gs4AeLSG8",
+            "outside": "460917",
+            "echonest": "ARKZGXU13B864F23BD",
+            "rdio": "r2459967"
+        },
+        "artist": "Night Terrors of 1927"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/rayland-baxter",
+        "ids": {
+            "spotify": "spotify:artist:251UrhgNbMr15NLzQ2KyKq",
+            "openaura": "52991dc8e4b0bd2cefd201da",
+            "outside": "78051",
+            "rdio": "r2167108",
+            "musicbrainz": "9dd9a2fb-891e-44d8-97ef-ca1d69aa2d7a",
+            "echonest": "ARZJSGN139209CE38D"
+        },
+        "artist": "RayLand Baxter"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/dj-icey",
+        "ids": {
+            "spotify": "spotify:artist:6bqEoxxGlwtRXZsoAXJFzA",
+            "gracenote": "7153460-2C8BF72F6B2A3DC0E082ECFAC5FF6437",
+            "openaura": "529918f4e4b0bd2cefcd343d",
+            "outside": "42224",
+            "rdio": "r90163",
+            "musicbrainz": "138dd95b-9311-416e-bcdd-a80067289de6",
+            "echonest": "ARHP6H31187FB4A38C"
+        },
+        "artist": "DJ Icey"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/paul-johnson",
+        "ids": {
+            "spotify": "spotify:artist:4BqZuFqHJ8CLn3ig0f1m0G",
+            "gracenote": "63157171-B4E49E300FDFC2C151C849F73A2ED901",
+            "openaura": "52991ef9e4b0bd2cefd31ba0",
+            "outside": "67658",
+            "rdio": "r15252",
+            "musicbrainz": "07065c90-1519-4bd9-8259-9872f3c9a776",
+            "echonest": "ARASCJD1187FB53A79"
+        },
+        "artist": "Paul Johnson"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/motion-potion",
+        "ids": {
+            "musicbrainz": "203685a4-b312-4049-ae25-e88ac8cbb582",
+            "openaura": "52991903e4b0bd2cefcd4482",
+            "outside": "62155",
+            "echonest": "ARH2OJW1187B9AE0D5"
+        },
+        "artist": "Motion Potion"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/dj-dials",
+        "ids": {
+            "spotify": "spotify:artist:73q6o0DNbpIowxpSqs6hjs",
+            "outside": "107917",
+            "echonest": "ARJTTAS1309DFD2F64",
+            "rdio": "r1060173"
+        },
+        "artist": "DJ Dials"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/shouts",
+        "ids": {
+            "outside": "647611",
+            "echonest": "ARMTWZN1269FCD91D9",
+            "rdio": "r2606978"
+        },
+        "artist": "Shouts!"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/lewis-black",
+        "ids": {
+            "spotify": "spotify:artist:6XloIaGQ9H1Nn37puBzQqm",
+            "gracenote": "47079174-EA8AEDD05FF43BC33B4E96DB7CAD2510",
+            "openaura": "52991bd2e4b0bd2cefd013dd",
+            "outside": "42332",
+            "rdio": "r44593",
+            "musicbrainz": "96774518-0e32-4a69-8aa3-8df0527fb6af",
+            "echonest": "AROFNQO1187FB4E860"
+        },
+        "artist": "Lewis Black"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/aisha-tyler",
+        "ids": {
+            "spotify": "spotify:artist:61KCQz5oO2VtckbzwooBTd",
+            "openaura": "52991d87e4b0bd2cefd1c172",
+            "outside": "213311",
+            "rdio": "r738566",
+            "musicbrainz": "e8431027-ef54-4998-9bb8-1c8c83ac40e9",
+            "echonest": "ARTBDGS122BCFCBBC9"
+        },
+        "artist": "Aisha Tyler"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/garfunkel-and-oates",
+        "ids": {
+            "spotify": "spotify:artist:2wZcAibn3pVsNvp95HQx8n",
+            "gracenote": "189444578-99D0DE845F6EDC680AAEF9350044EAE5",
+            "openaura": "52991be1e4b0bd2cefd02232",
+            "outside": "126717",
+            "rdio": "r2064632",
+            "musicbrainz": "fa7466b4-1521-482a-94f3-81b3c8b5b0b3",
+            "echonest": "ARZMOGA124724E2799"
+        },
+        "artist": "Garfunkel & Oates"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/rory-albanese-",
+        "ids": {
+            "outside": "772220",
+            "echonest": "ARACQXX134198E6ADB"
+        },
+        "artist": "Rory Albanese"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/matt-mccarthy-",
+        "ids": {
+            "spotify": "spotify:artist:3V4ODgUObsEHFX6GQUy8xl",
+            "outside": "781735",
+            "echonest": "ARWCZHB12802FDD50F",
+            "rdio": "r1402587"
+        },
+        "artist": "Matt McCarthy"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/aparna-nancherla",
+        "ids": {
+            "outside": "86482"
+        },
+        "artist": "Aparna Nancherla"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/ali-mafi-",
+        "ids": {
+            "outside": "781734"
+        },
+        "artist": "Ali Mafi"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/beso-negro",
+        "ids": {
+            "spotify": "spotify:artist:3DoXiWB4TMZBu2FSJUyCgL",
+            "outside": "221126",
+            "echonest": "ARRBNLD122ECCBA34E",
+            "rdio": "r2131903"
+        },
+        "artist": "Beso Negro"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/carny-bastards",
+        "ids": {
+            "outside": "782293"
+        },
+        "artist": "Carny Bastards"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/dustbowl-revival",
+        "ids": {
+            "musicbrainz": "d8baeb9f-31f0-47ec-aade-ad53bd4f3496",
+            "openaura": "52991909e4b0bd2cefcd4b70",
+            "outside": "341803",
+            "echonest": "ARUWKRK1377023F56F"
+        },
+        "artist": "Dustbowl Revival"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/el-radio-fantastique",
+        "ids": {
+            "musicbrainz": "7d6fd24c-7735-4ba0-bf9b-ea0c6149d2c9",
+            "spotify": "spotify:artist:7EyKpdYK6XxjZkkHHeXTTX",
+            "outside": "322355",
+            "echonest": "ARWXDGG12FE087167C",
+            "openaura": "52991ec7e4b0bd2cefd2e9fd"
+        },
+        "artist": "EL Radio Fantastique"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/marty-oreilly-and-the-old-soul-orchestra",
+        "ids": {
+            "spotify": "spotify:artist:0oFKnXK9fgRpWNyKoJeSOy",
+            "outside": "581280",
+            "echonest": "ARPDHHR1454EDA8BB0",
+            "rdio": "r3818620"
+        },
+        "artist": "Marty O'Reilly & The Old Soul Orchestra"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/slim-jenkins",
+        "ids": {
+            "outside": "88231"
+        },
+        "artist": "Slim Jenkins"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/tritiptrio",
+        "ids": {
+            "spotify": "spotify:artist:0MYALjRKpA76k8ODIe7lUN",
+            "outside": "782294",
+            "echonest": "ARHTJXN11F4C843F41",
+            "rdio": "r688360"
+        },
+        "artist": "TriTipTrio"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/tom-petty-and-the-heartbreakers",
+        "ids": {
+            "spotify": "spotify:artist:4tX2TplrkIP4v05BNC903e",
+            "gracenote": "7321687-5F553889E04A57FAA4B023338D4C2230",
+            "openaura": "5299219fe4b0bd2cefd5917d",
+            "outside": "34242",
+            "rdio": "r236510",
+            "musicbrainz": "f93dbc64-6f08-4033-bcc7-8a0bb4689849",
+            "echonest": "ARF4L041187FB4D318"
+        },
+        "artist": "Tom Petty & the Heartbreakers"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/macklemore-and-ryan-lewis",
+        "ids": {
+            "spotify": "spotify:artist:5BcAKTbp20cv7tC5VqPFoC",
+            "outside": "118686",
+            "echonest": "ARZEHLK12DDD1882BF",
+            "rdio": "r1314092",
+            "gracenote": "290511054-8CFAFE46B36FB8ECB99A9F625379F617"
+        },
+        "artist": "Macklemore & Ryan Lewis"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/death-cab-for-cutie",
+        "ids": {
+            "spotify": "spotify:artist:0YrtvWJMgSdVrk3SfNjTbx",
+            "gracenote": "240930859-7937C6F9B25276293A39D568683C3A37",
+            "openaura": "52991856e4b0bd2cefcc9622",
+            "outside": "46777",
+            "rdio": "r3604",
+            "musicbrainz": "0039c7ae-e1a7-4a7d-9b49-0cbc716821a6",
+            "echonest": "ARSPUJF1187B9A14B8"
+        },
+        "artist": "Death Cab For Cutie"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/atmosphere",
+        "ids": {
+            "spotify": "spotify:artist:1GAS0rb4L8VTPvizAx2O9J",
+            "gracenote": "220787638-63E52264198D3760783CE125305B1ED5",
+            "openaura": "52991d0ce4b0bd2cefd145b2",
+            "outside": "14587",
+            "rdio": "r2027994",
+            "musicbrainz": "44c7bce3-da01-4dc0-b0a5-1eb9b160f049",
+            "echonest": "ARZYMH91187B99CEFC"
+        },
+        "artist": "Atmosphere"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/duck-sauce-",
+        "ids": {
+            "spotify": "spotify:artist:0q8J3Yj810t5cpAYEJ7gxt",
+            "gracenote": "408565714-CB6629024FE5FE2681EAB23B3BCC8871",
+            "openaura": "528ff02ae4b084ba1571c83e",
+            "outside": "142372",
+            "rdio": "r356118",
+            "musicbrainz": "5269d3d2-63c6-4b8f-8200-6908ffa365d5",
+            "echonest": "ARWVCXO123E29C2928"
+        },
+        "artist": "Duck Sauce"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/haim",
+        "ids": {
+            "spotify": "spotify:artist:4Ui2kfOqGujY81UcPrb5KE",
+            "gracenote": "371467251-4BF9968D27BAA5506B08EFA91E91AA5D",
+            "openaura": "529920e9e4b0bd2cefd4ee2b",
+            "outside": "216899",
+            "rdio": "r90523",
+            "musicbrainz": "50601ad0-50e5-40ae-b446-d6ada5986d19",
+            "echonest": "ARY6OP91187B9A55FE"
+        },
+        "artist": "Haim"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/capital-cities",
+        "ids": {
+            "spotify": "spotify:artist:4gwpcMTbLWtBUlOijbVpuu",
+            "gracenote": "395656993-D26D6E9BCD0A26A7B8D80CD9E103576E",
+            "openaura": "528ff02ae4b084ba1571c83d",
+            "outside": "114793",
+            "rdio": "r2127632",
+            "musicbrainz": "119a2c67-e6d6-41cf-a58c-c51b75c80daa",
+            "echonest": "ARGBGCB12CF58F79BE"
+        },
+        "artist": "Capital Cities"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/local-natives",
+        "ids": {
+            "spotify": "spotify:artist:75dQReiBOHN37fQgWQrIAJ",
+            "gracenote": "321196143-D563B3AA88B39B21DE512C241AF32E34",
+            "openaura": "529918e0e4b0bd2cefcd1f1d",
+            "outside": "49854",
+            "rdio": "r157572",
+            "musicbrainz": "1bbf31dc-dbc0-4a7a-bf3f-48bc665878e1",
+            "echonest": "ARAWGDQ11FF10D8556"
+        },
+        "artist": "Local Natives"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/john-butler-trio",
+        "ids": {
+            "spotify": "spotify:artist:4XsuCobDDOEQTVXYoJNCCf",
+            "openaura": "529917e8e4b0bd2cefcc2d4d",
+            "outside": "38076",
+            "rdio": "r3111595",
+            "musicbrainz": "7952b266-9fd4-4a09-a324-7dc84f11b5fc",
+            "echonest": "AR9GYK61187B9BA1DD"
+        },
+        "artist": "John Butler Trio"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/tycho",
+        "ids": {
+            "spotify": "spotify:artist:5oOhM2DFWab8XhSdQiITry",
+            "gracenote": "398648329-078EA5E0011A7E89A991E6CF158984FD",
+            "openaura": "52991bb3e4b0bd2cefcff8f4",
+            "outside": "41779",
+            "rdio": "r351486",
+            "musicbrainz": "b36f70be-71b1-44d5-9abc-8cd5cc78eb6e",
+            "echonest": "AR0GF811187B9AD3D6"
+        },
+        "artist": "Tycho"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/the-kooks",
+        "ids": {
+            "spotify": "spotify:artist:1GLtl8uqKmnyCWxHmw9tL4",
+            "gracenote": "248562502-388341E55C847BD6C9E8EF1AD1D4B8EE",
+            "openaura": "52926869e4b037311cddd0ce",
+            "outside": "43136",
+            "rdio": "r140429",
+            "musicbrainz": "c41c6a32-cd7e-4cce-8859-559efdd457b3",
+            "echonest": "ARWDPT81187B99C656"
+        },
+        "artist": "The Kooks"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/boys-noize",
+        "ids": {
+            "spotify": "spotify:artist:62k5LKMhymqlDNo2DWOvvv",
+            "gracenote": "346206290-4CE0DAD3989755D3C4C9A5C5D3A5FE44",
+            "openaura": "52991e78e4b0bd2cefd29fbd",
+            "outside": "16488",
+            "rdio": "r140868",
+            "musicbrainz": "d2f4a968-1f6e-4a4a-9376-ee2b2a50c87a",
+            "echonest": "ARVXFBU1187B989D86"
+        },
+        "artist": "Boys Noize"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/deer-tick",
+        "ids": {
+            "spotify": "spotify:artist:3rT8xTwSOMDURtWpPyoKIO",
+            "gracenote": "372972762-4350FD0A56ACD1A82D6597711355A0C4",
+            "openaura": "529918efe4b0bd2cefcd2f00",
+            "outside": "32466",
+            "rdio": "r347831",
+            "musicbrainz": "c8c64bcc-48c6-47c9-8411-f5c4fd5a97bb",
+            "echonest": "ARR3ZVN1187FB55682"
+        },
+        "artist": "Deer Tick"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/dum-dum-girls",
+        "ids": {
+            "spotify": "spotify:artist:65ewrL6LvcNGMMRVlksNGS",
+            "gracenote": "291903970-9A0ACFC1F74B5DF2192BD63644AC3431",
+            "openaura": "5299198ee4b0bd2cefcdd646",
+            "outside": "58032",
+            "rdio": "r155352",
+            "musicbrainz": "ca405011-906d-4090-992f-f230739278b1",
+            "echonest": "ARUUVQD122BCFCB7AB"
+        },
+        "artist": "Dum Dum Girls"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/christopher-owens",
+        "ids": {
+            "spotify": "spotify:artist:0ukgSx1gUt5rUihbNh46qy",
+            "openaura": "52991941e4b0bd2cefcd84d1",
+            "outside": "472953",
+            "rdio": "r287945",
+            "musicbrainz": "9cca95ca-e6b7-4aa7-9a8b-0425189c7f1d",
+            "echonest": "ARYHVDJ13BEDDDFBB3"
+        },
+        "artist": "Christopher Owens"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/big-freedia",
+        "ids": {
+            "spotify": "spotify:artist:2gyv1akuIB9fQvXoGSPaJr",
+            "gracenote": "422489105-CEB68DA856BD7708E49C008AFE30A452",
+            "openaura": "529921cae4b0bd2cefd5b5e3",
+            "outside": "96273",
+            "rdio": "r1186100",
+            "musicbrainz": "14637c9a-4156-4990-862d-02113db0bc07",
+            "echonest": "ARNIHWM126A031DEE0"
+        },
+        "artist": "Big Freedia"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/jagwar-ma",
+        "ids": {
+            "spotify": "spotify:artist:6fEO1r9Y9TYL9O4w5kVPmc",
+            "gracenote": "341507389-A755D0AE3E17993329921FE7D30574CD",
+            "openaura": "52992169e4b0bd2cefd55fa9",
+            "outside": "311558",
+            "rdio": "r1810955",
+            "musicbrainz": "5b933654-f58b-438c-8652-90567e5495a1",
+            "echonest": "ARJZWDC136658E5D5C"
+        },
+        "artist": "Jagwar Ma"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/vance-joy",
+        "ids": {
+            "spotify": "spotify:artist:10exVja0key0uqUkk6LJRT",
+            "gracenote": "331031895-6502F461294A1E55B3D9BFF4F1D1EC5C",
+            "openaura": "52991e91e4b0bd2cefd2b705",
+            "outside": "520867",
+            "rdio": "r2655957",
+            "musicbrainz": "df36f6db-5987-46ed-9d02-0cf36ed4e060",
+            "echonest": "ARXGKXE13CABFC507C"
+        },
+        "artist": "Vance Joy"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/valerie-june",
+        "ids": {
+            "spotify": "spotify:artist:4QZdOCb3UacKbQ1ybDFAKM",
+            "gracenote": "340197496-58BAE36B6CB0E444627EBDB35C661AB9",
+            "openaura": "52991dcfe4b0bd2cefd20675",
+            "outside": "148999",
+            "rdio": "r1396851",
+            "musicbrainz": "b76c1bf7-f33b-460c-bfc3-f140d023fc94",
+            "echonest": "ARMNAAY126FC9C0D19"
+        },
+        "artist": "Valerie June"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/tumbleweed-wanderers",
+        "ids": {
+            "spotify": "spotify:artist:0KUPqZsHeQgLr8OF7z2yRj",
+            "outside": "193553",
+            "echonest": "ARHVIER13586CC6C37",
+            "rdio": "r2850452"
+        },
+        "artist": "Tumbleweed Wanderers"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/finish-ticket",
+        "ids": {
+            "spotify": "spotify:artist:3RthMq3xfDQZl80cMEg1JQ",
+            "outside": "150400",
+            "echonest": "ARRNMJZ12AA0D8C474",
+            "rdio": "r2530270"
+        },
+        "artist": "Finish Ticket"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/the-districts",
+        "ids": {
+            "spotify": "spotify:artist:3HZgaiR960RFqx9d4LPraD",
+            "openaura": "52991d86e4b0bd2cefd1c034",
+            "outside": "287672",
+            "rdio": "r791314",
+            "musicbrainz": "d4cb6c89-d615-40e4-b78d-ae5ab1565462",
+            "echonest": "AR6HWQ51187B989A3D"
+        },
+        "artist": "The Districts"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/trails-and-ways",
+        "ids": {
+            "spotify": "spotify:artist:4waBtLEoe70SqdFLGsaXCZ",
+            "gracenote": "393083793-F1FF739CF4449131EC065F55E3F4B759",
+            "openaura": "529920eee4b0bd2cefd4f43f",
+            "outside": "298223",
+            "rdio": "r2279480",
+            "musicbrainz": "cdd316c8-a29a-4304-8617-ce69a735f652",
+            "echonest": "ARYSOPF138BEC18B9D"
+        },
+        "artist": "Trails and Ways"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/nocona-",
+        "ids": {
+            "spotify": "spotify:artist:30ruTcaBnr7SfDltXSRTJ5",
+            "outside": "734630",
+            "echonest": "ARHQWEJ140C2890320",
+            "rdio": "r3200397"
+        },
+        "artist": "Nocona"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/gorgon-city",
+        "ids": {
+            "spotify": "spotify:artist:4VNQWV2y1E97Eqo2D5UTjx",
+            "gracenote": "322377201-8801177892BED1BB6308F11FE6E97381",
+            "openaura": "52991bd4e4b0bd2cefd0160b",
+            "outside": "354769",
+            "rdio": "r1842359",
+            "musicbrainz": "ba8aaa28-2de4-4d5c-824e-1e9d49235c55",
+            "echonest": "ARCJPWR136658E907C"
+        },
+        "artist": "Gorgon City"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/the-scum-frog",
+        "ids": {
+            "spotify": "spotify:artist:22tL4hcoGJQDaGexiQTWy9",
+            "gracenote": "38814437-7E9A9F2D54508D724367DB472CF92D7D",
+            "openaura": "529921c0e4b0bd2cefd5ae5d",
+            "outside": "768726",
+            "rdio": "r215970",
+            "musicbrainz": "af99dd4d-47b6-427f-9b11-891d5f923155",
+            "echonest": "ARUVGJP1187B9B35D9"
+        },
+        "artist": "The Scumfrog"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/shawn-reynaldo",
+        "ids": {
+            "outside": "130703"
+        },
+        "artist": "Shawn Reynaldo"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/deejay-theory",
+        "ids": {
+            "spotify": "spotify:artist:5iW9p5ZAmVwIGLRpQNoYrb",
+            "outside": "245431",
+            "echonest": "ARQQZEH144CB013204"
+        },
+        "artist": "Deejay Theory"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/matt-haze",
+        "ids": {
+            "outside": "107915",
+            "echonest": "ARTQLZY12086C13825"
+        },
+        "artist": "Matt Haze"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/the-improvised-shakespeare-company",
+        "ids": {
+            "outside": "60275"
+        },
+        "artist": "The Improvised Shakespeare Company"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/improv-4-humans-with-matt-besser-and-guests-chris-gethard-lauren-lapkus-and-seth-morris",
+        "ids": {
+            "outside": "776456"
+        },
+        "artist": "Improv4Humans with Matt Besser and guests Chris Gethard, Lauren Lapkus and Seth Morris"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/the-chris-gethard-show",
+        "ids": {
+            "outside": "119584"
+        },
+        "artist": "The Chris Gethard Show"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/the-killers",
+        "ids": {
+            "spotify": "spotify:artist:0C0XlULifJtAgn6ZNCW2eu",
+            "gracenote": "59264822-F56D244DCFD7B25E1E0E8FDAEB1EEF45",
+            "openaura": "529921eee4b0bd2cefd5d67c",
+            "outside": "7091",
+            "rdio": "r91236",
+            "musicbrainz": "24b4aee8-32ed-4163-98f7-55bae67411ae",
+            "echonest": "ARVG4OK1187B9B6BD3"
+        },
+        "artist": "The Killers"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/ti%C3%ABsto-",
+        "ids": {
+            "spotify": "spotify:artist:2o5jDhtHVPhrJdv3cEQ99Z",
+            "gracenote": "191239090-9D6FDA9E343DE2038C504B791363A14B",
+            "openaura": "52991bace4b0bd2cefcff1d3",
+            "outside": "111273",
+            "rdio": "r964002",
+            "musicbrainz": "aabb1d9f-be12-45b3-a84d-a1fc3e8181fd",
+            "echonest": "ARIW30O1187FB5A29A"
+        },
+        "artist": "Ti\u00ebsto"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/the-flaming-lips",
+        "ids": {
+            "spotify": "spotify:artist:16eRpMNXSQ15wuJoeqguaB",
+            "gracenote": "7339618-94515FD719D9D500B71E0ADC705208A2",
+            "openaura": "5299227fe4b0bd2cefd655b6",
+            "outside": "34248",
+            "rdio": "r84808",
+            "musicbrainz": "1f43d76f-8edf-44f6-aaf1-b65f05ad9402",
+            "echonest": "ARNVCB81187B9ACBDF"
+        },
+        "artist": "The Flaming Lips"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/ray-lamontagne",
+        "ids": {
+            "spotify": "spotify:artist:6DoH7ywD5BcQvjloe9OcIj",
+            "gracenote": "421522816-639780D2715E65A772C5FC87E2670612",
+            "openaura": "529919e6e4b0bd2cefce30d0",
+            "outside": "34221",
+            "rdio": "r213724",
+            "musicbrainz": "b5c4ffa2-82e1-4b72-b7f3-c60afb74b860",
+            "echonest": "AR90WS41187FB3F064"
+        },
+        "artist": "Ray LaMontagne"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/spoon",
+        "ids": {
+            "spotify": "spotify:artist:0K1q0nXQ8is36PzOKAMbNe",
+            "gracenote": "31785969-F3972A39175AAB960359D60195FC61AD",
+            "openaura": "52991d56e4b0bd2cefd191cf",
+            "outside": "35069",
+            "rdio": "r91280",
+            "musicbrainz": "0db1ad0b-3ac1-4425-b10a-3142e795895c",
+            "echonest": "ARRX8P01187B99B26E"
+        },
+        "artist": "Spoon"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/cut-copy",
+        "ids": {
+            "spotify": "spotify:artist:4EENT7N7rCBwrddM3s0vFS",
+            "gracenote": "154293922-3B2DB2B02B586049ADB962626DFC7124",
+            "openaura": "52992041e4b0bd2cefd45574",
+            "outside": "48024",
+            "rdio": "r309914",
+            "musicbrainz": "caaba574-dfbc-4681-8e56-19b5150897d2",
+            "echonest": "ARWD3OC1187FB3A666"
+        },
+        "artist": "Cut Copy"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/ben-howard",
+        "ids": {
+            "spotify": "spotify:artist:5schNIzWdI9gJ1QRK8SBnc",
+            "gracenote": "249247036-0254E2BA0DFAC63C48406B3D58697055",
+            "openaura": "52991ab7e4b0bd2cefcefc24",
+            "outside": "200723",
+            "rdio": "r1274460",
+            "musicbrainz": "534dda3c-b73f-408b-8889-bd68eae84df6",
+            "echonest": "ARDQLBT12420780DAF"
+        },
+        "artist": "Ben Howard"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/lykke-li",
+        "ids": {
+            "spotify": "spotify:artist:6oBm8HB0yfrIc9IHbxs6in",
+            "gracenote": "235767490-390E3C49511692CA8E8E3A5054061720",
+            "openaura": "52991a88e4b0bd2cefcecc15",
+            "outside": "17296",
+            "rdio": "r85108",
+            "musicbrainz": "cc7d4686-ea02-45fd-956e-94c1a322558c",
+            "echonest": "ARGHEC01187FB597B0"
+        },
+        "artist": "Lykke Li"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/chvrches",
+        "ids": {
+            "spotify": "spotify:artist:3CjlHNtplJyTf9npxaPl5w",
+            "gracenote": "367237723-0ADA0760222A14964C48326325EA5FCB",
+            "openaura": "52991e3be4b0bd2cefd26093",
+            "outside": "449934",
+            "rdio": "r2334128",
+            "musicbrainz": "6a93afbb-257f-4166-b389-9f2a1e5c5df8",
+            "echonest": "ARCZOJQ13A5B8886AB"
+        },
+        "artist": "Chvrches"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/paolo-nutini",
+        "ids": {
+            "spotify": "spotify:artist:7x5rK9BClDQ8wmCkYAGsQp",
+            "gracenote": "416552706-2FA2C7B18B03CA384A33B373600FA09D",
+            "openaura": "529918e0e4b0bd2cefcd1f28",
+            "outside": "34241",
+            "rdio": "r89511",
+            "musicbrainz": "24ea074c-59cc-41c5-a5de-f68c2952965f",
+            "echonest": "ARZS3RD1187FB457CE"
+        },
+        "artist": "Paolo Nutini"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/jenny-lewis-",
+        "ids": {
+            "spotify": "spotify:artist:5cMVRrisBpDkXCVG48epED",
+            "gracenote": "164952887-347390FE903C837AD2D40F4D23983EBA",
+            "openaura": "52991f7be4b0bd2cefd3927e",
+            "outside": "34474",
+            "rdio": "r89302",
+            "musicbrainz": "9ad6d1e3-427f-4921-b603-7e9eda94a061",
+            "echonest": "ARYISIS1187FB37E32"
+        },
+        "artist": "Jenny Lewis"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/flume",
+        "ids": {
+            "spotify": "spotify:artist:6nxWCVXbOlEVRexSbLsTer",
+            "gracenote": "300142858-7018B94F1F1687104E066DB2CC3619EA",
+            "openaura": "5299233ce4b0bd2cefd705df",
+            "outside": "190842",
+            "rdio": "r1209384",
+            "musicbrainz": "35fd8d42-b4a6-4414-9827-8766bd0daa3c",
+            "echonest": "ARRRSNG1242077E912"
+        },
+        "artist": "Flume"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/lucius",
+        "ids": {
+            "spotify": "spotify:artist:1WrqUPWlHN5FXCRcQgrkas",
+            "gracenote": "375617302-F59F1ADA4D7FCF9D5390E3057C1204CD",
+            "openaura": "52992271e4b0bd2cefd6498d",
+            "outside": "139745",
+            "rdio": "r201233",
+            "musicbrainz": "1676172f-657a-4771-96ff-4a1c2ef1997e",
+            "echonest": "ARLLA371187B9B7F48"
+        },
+        "artist": "Lucius"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/gold-panda",
+        "ids": {
+            "spotify": "spotify:artist:6xS3zemJD9h94iueQvGqVk",
+            "gracenote": "220945236-E4344F0C2EB5AB81C73C9793D3EABED9",
+            "openaura": "52991e6ce4b0bd2cefd2915e",
+            "outside": "76588",
+            "rdio": "r402832",
+            "musicbrainz": "bfbccd40-1a06-4ee7-b24d-b2f8cc714fa9",
+            "echonest": "ARUQQLL12086C15939"
+        },
+        "artist": "Gold Panda"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/woods-",
+        "ids": {
+            "spotify": "spotify:artist:2sBPVEeMBXKNsZtYaJixnJ",
+            "openaura": "52991c68e4b0bd2cefd0ab3c",
+            "outside": "47369",
+            "rdio": "r3857491",
+            "musicbrainz": "219d4e24-dbc9-4042-a7c9-07e0ebfcb2fd",
+            "echonest": "AR4SDA71187B9A7C97"
+        },
+        "artist": "Woods"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/gardens-and-villa",
+        "ids": {
+            "spotify": "spotify:artist:5NgfalfOtMDHkJ0SbFAxyA",
+            "gracenote": "244284819-1C4DCE00F3A06B17CACCFDF4665D7F7A",
+            "openaura": "52991ee9e4b0bd2cefd30937",
+            "outside": "190141",
+            "rdio": "r1108862",
+            "musicbrainz": "57d16320-39ad-4d0e-8ec9-86fd3ec94455",
+            "echonest": "ARTCYMN130708ED229"
+        },
+        "artist": "Gardens & Villa"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/watsky",
+        "ids": {
+            "spotify": "spotify:artist:3mJ9GlkLzj8Ka7Z7EQaCMi",
+            "outside": "183768",
+            "echonest": "ARWPJTD12EC561C1B4",
+            "rdio": "r2065527",
+            "gracenote": "328218740-DE083D874D71BB38F32074D225E782D5"
+        },
+        "artist": "Watsky"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/hiss-golden-messenger--",
+        "ids": {
+            "spotify": "spotify:artist:37eqxl8DyLd5sQN54wYJbE",
+            "gracenote": "266759061-E36F8979CDB727A5747B23315C5BF9EF",
+            "openaura": "52991b87e4b0bd2cefcfcb26",
+            "outside": "769174",
+            "rdio": "r404654",
+            "musicbrainz": "aa0b8b75-714f-465e-9d66-c54c17247f6f",
+            "echonest": "ARICUFU122BCFCB8ED"
+        },
+        "artist": "Hiss Golden Messenger"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/imelda-may",
+        "ids": {
+            "spotify": "spotify:artist:6AnjHMqEAps8VJdHU8RykH",
+            "gracenote": "146710785-8CA168B7273C9BAC12CEF2F00FC1B924",
+            "openaura": "529922f2e4b0bd2cefd6c4a4",
+            "outside": "59793",
+            "rdio": "r310997",
+            "musicbrainz": "cf7560ef-7714-477e-b4cd-59de0a2d11fb",
+            "echonest": "AREB12I11C8A416B50"
+        },
+        "artist": "Imelda May"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/courtney-barnett",
+        "ids": {
+            "spotify": "spotify:artist:4OOlG5eBXSkSAAEeKjJb5Y",
+            "gracenote": "370289412-514351D426958401284EBC681945391C",
+            "openaura": "5299239ee4b0bd2cefd75c60",
+            "outside": "668630",
+            "rdio": "r1951524",
+            "musicbrainz": "55111838-f001-494a-a1b5-9d818db85810",
+            "echonest": "ARUISHD13704F097BA"
+        },
+        "artist": "Courtney Barnett"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/made-in-heights-",
+        "ids": {
+            "spotify": "spotify:artist:71zBpZsf6YDEBfWayKdAOA",
+            "outside": "769172",
+            "echonest": "ARTDDYE131AAE2621A",
+            "rdio": "r3445480"
+        },
+        "artist": "Made in Heights"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/jonathan-wilson",
+        "ids": {
+            "spotify": "spotify:artist:6KJIIOCWsWtNc7ICINtPEw",
+            "gracenote": "246933965-C0DFA17C36E80E8B02CBCFDD7B21D17E",
+            "openaura": "52991b87e4b0bd2cefcfcae7",
+            "outside": "37124",
+            "rdio": "r272542",
+            "musicbrainz": "2f17f9f7-2df1-49d6-ab2b-7bb4ba580746",
+            "echonest": "ARXY71N1187B9B5B66"
+        },
+        "artist": "Jonathan Wilson"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/the-brothers-comatose",
+        "ids": {
+            "spotify": "spotify:artist:7oKVYDiVZxglvgEW2zHcAD",
+            "openaura": "52991e4be4b0bd2cefd2715a",
+            "outside": "103630",
+            "rdio": "r2593808",
+            "musicbrainz": "99e4dda9-f5fb-4949-b5c5-3e6a4bdb1268",
+            "echonest": "ARDIHDG12592CD9274"
+        },
+        "artist": "The Brothers Comatose"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/the-bots-",
+        "ids": {
+            "spotify": "spotify:artist:74inaPbbmkeOZch3n682zq",
+            "openaura": "52992016e4b0bd2cefd42c3a",
+            "outside": "769525",
+            "rdio": "r621236",
+            "musicbrainz": "198f6a29-d176-4924-9747-d0b8071fcb3e",
+            "echonest": "ARTUFKW1187B9AE6E0"
+        },
+        "artist": "The Bots"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/green-velvet-",
+        "ids": {
+            "spotify": "spotify:artist:3ABaec4jjl95VqmG1iD4k2",
+            "gracenote": "21483688-A49A2F71FFA2A984852176B120E40221",
+            "openaura": "529919e0e4b0bd2cefce2ad5",
+            "outside": "620710",
+            "rdio": "r94724",
+            "musicbrainz": "e425b041-c28a-4ae8-9d5c-997890433cd4",
+            "echonest": "ARZDU0H1187B989E0D"
+        },
+        "artist": "Green Velvet"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/soultech-gene-farris-and-dustin-sheridan",
+        "ids": {
+            "outside": "768727"
+        },
+        "artist": "Soultech 'Gene Farris & Dustin Sheridan'"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/cappa-regime",
+        "ids": {
+            "spotify": "spotify:artist:6nsRu4qU6Q7JxNzF9k83WW",
+            "outside": "629576",
+            "echonest": "ARLXPMX138A107819E",
+            "rdio": "r2110135"
+        },
+        "artist": "Cappa Regime"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/lights-down-low-",
+        "ids": {
+            "outside": "497581"
+        },
+        "artist": "Lights Down Low: Richie Panic, Sleazemore & MPHD"
+    },
+    {
+        "link": "http://lineup.sfoutsidelands.com/band/thomas-middleditch-t-j-miller-and-kumail-nanjiani-",
+        "ids": {
+            "outside": "776455"
+        },
+        "artist": "Stars of Silicon Valley: Thomas Middleditch, T.J. Miller and Kumail Nanjiani"
+    }
+]

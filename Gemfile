@@ -5,10 +5,21 @@ gem 'rails', '4.0.2'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
+gem 'activerecord-postgis-adapter' # provides a special ActiveRecord adapter for talking to PostGIS and handling geospatial data
 
 gem 'oauth'
 gem 'twitter'
 gem 'httparty'
+
+gem 'pry'
+gem 'pry-rails'
+
+# rails_12factor provides static asset serving and logging on Heroku
+gem 'rails_12factor', group: :production
+
+# Use RGeo, a geospatial data library for Ruby, and related modules
+gem 'rgeo'
+gem 'rgeo-geojson'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -31,6 +42,10 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+group :development, :test do
+  gem 'dotenv-rails'
+end
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
@@ -40,7 +55,7 @@ end
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
