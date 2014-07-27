@@ -1,4 +1,5 @@
 class Location < ActiveRecord::Base
+has_many :checkins
 has_many :performances
 has_many :artists, through: :performances
 

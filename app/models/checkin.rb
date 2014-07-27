@@ -1,5 +1,6 @@
 class Checkin < ActiveRecord::Base
   belongs_to :user
+  belongs_to :location
 
   wgs84_proj4 = '+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs'
   wgs84_wkt = <<WKT
