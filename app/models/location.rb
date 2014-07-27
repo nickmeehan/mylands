@@ -1,6 +1,7 @@
-class Checkin < ActiveRecord::Base
-  belongs_to :user
-  belongs_to :location
+class Location < ActiveRecord::Base
+has_many :checkins
+has_many :performances
+has_many :artists, through: :performances
 
   wgs84_proj4 = '+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs'
   wgs84_wkt = <<WKT
