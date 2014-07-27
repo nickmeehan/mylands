@@ -11,7 +11,24 @@
  *= require_self
  *= require_tree .
  */
+body {
+	background-color: #7DC3C9;
+	font-family: "Cabin";
+	padding-bottom: 10px;
+}
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("https://themes.googleusercontent.com/static/fonts/ubuntu/v5/0ihfXUL2emPh0ROJezvraLO3LdcAZYWl9Si6vvxL-qU.woff") format("woff");
+}
 
+@font-face {
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cabin Regular"), local("Cabin-Regular"), url("https://fonts.gstatic.com/s/cabin/v6/kJXt72Gt1LyFMZcEKAAvlKCWcynf_cDxXwCLxiixG1c.woff") format("woff");
+}
 
 .ol-brown {
   background-color: #45332F;
@@ -23,4 +40,104 @@
 
 .ol-gray {
   background-color: #708A89;
+}
+
+.ol-blue {
+  background-color: #7DC3C9;
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	text-align: center;
+	color: #024558;
+	font-size: 16px;
+	padding: 20px;
+	max-width: 50%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.title {
+	font-family: "Ubuntu";
+  font-size: 5em;
+  font-weight: bolder;
+  color: white;
+  line-height: 1.2em;
+  text-align: center;
+  padding-bottom: 5px;
+ }
+
+ .stripe {
+ 	background-color: #45332F;
+ 	padding: 20px;
+ 	border-top: 1px solid white;
+ 	border-bottom: 1px solid white;
+ 	color: white;
+ 	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.btn {
+	display: table;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid white;
+}
+
+.wrapper {
+	padding-left: 25px;
+}
+
+#left-btn {
+	float: left;
+	top: 15px;
+}
+
+#right-btn {
+	margin-left: 10px;
+}
+
+.btn:hover {
+	color: #ffffff;
+}
+
+.twitter {
+	background-color: #55ACEE;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body, #map {
+    height: 100%;
+}
+
+#checkin {
+	margin: 0 auto;
+	z-index: 1;
+}
+
+img.cover {
+	display: block;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
 }

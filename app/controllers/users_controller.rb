@@ -44,6 +44,13 @@ class UsersController < ApplicationController
     redirect_to @user
   end
 
+  def checkins
+    # @checkins = current_user.checkins
+    @user = User.find(session[:user_id])
+    @checkins = @user.checkins
+    render 'shared/checkins'
+  end
+
   private
 
   def oauth_consumer
