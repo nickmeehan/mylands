@@ -7,13 +7,13 @@
   <% @checkins.each do |checkin| %>
     <% if checkin.artist %>
       <div class="checkin-location checkin-artist" data-echonest="#{checkin.artist.echonest_id}">
-        <h1><%= checkin.location.name %></h1>
-        <h4><%= "#{checkin.created_at.strftime("%A %_m/%d %l:%M%P")}" %></h4>
-        <h2><%= checkin.artist.name %></h2>
+        <h2><%= checkin.location.name %></h1>
+        <h4><%= "#{checkin.created_at.strftime("%A %_m/%d - %l:%M%P")}" %></h4>
+        <h1><%= checkin.artist.name %></h2>
       </div>
     <% else %>
         <div class="checkin-location">
-          <h1><%= checkin.location.name %></h1>
+          <h2><%= checkin.location.name %></h2>
           <h4><%= "#{checkin.created_at.strftime("%A %_m/%d - %l:%M%P")}" %></h4>
         </div>
     <% end %>
