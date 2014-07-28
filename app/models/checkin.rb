@@ -1,6 +1,19 @@
 class Checkin < ActiveRecord::Base
   belongs_to :user
   belongs_to :location
+  belongs_to :artist
+
+  def get_data
+    artist_name = self.artist ? self.artist.name : nil
+    {location: self.location.name, artist: artist_name, latitude: self.get_lat_lng[:latitude], longitude: self.get_lat_lng[:longitude], time: self.created_at}
+  end
+
+  def get_lat_lng
+    temp = self.position.to_s.split("(")[1].split(" ")
+    lng = temp.first
+    lat = temp.last[0...-1]
+    {latitude: lat, longitude: lng}
+  end
 
   wgs84_proj4 = '+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs'
   wgs84_wkt = <<WKT
