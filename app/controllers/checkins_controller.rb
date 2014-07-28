@@ -31,13 +31,11 @@ class CheckinsController < ApplicationController
       checkin = location.checkins.new checkins_params
       checkin.user_id = current_user.id
       checkin.position = here
-      checkin.save
       performance = location.performances.where("start_time <= ? AND end_time >= ?", now, now).first
-      if performance
-        render :json => {location: location.name, artist: performance.artist, latitude: latitude, longitude: longitude }
-      else
-        render :json => {location: location.name, artist: nil, latitude: latitude, longitude: longitude }
-      end
+      checkin.artist = performance.artist if performance
+      checkin.save
+      artist_name = performance ? performance.artist.name : nil
+      render :json => {location: location.name, artist: artist_name, latitude: latitude, longitude: longitude, time: now}
     else
       osl = Location.find(1).boundary
       distance = meters_to_miles(here.distance(osl))
@@ -47,7 +45,7 @@ class CheckinsController < ApplicationController
 
 private
   def checkins_params
-    params.permit(:user_id, :location_id, :position)
+    params.permit(:user_id, :location_id, :artist_id, :position)
   end
 
   def meters_to_miles(meters)

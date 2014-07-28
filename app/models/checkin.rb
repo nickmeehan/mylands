@@ -1,11 +1,7 @@
 class Checkin < ActiveRecord::Base
   belongs_to :user
   belongs_to :location
-
-  def artist
-    performance = self.location.performances.where("start_time <= ? AND end_time >= ?", created_at, created_at).first
-    performance ? performance.artist : nil
-  end
+  belongs_to :artist
 
   def get_data
     artist_name = self.artist ? self.artist.name : nil
