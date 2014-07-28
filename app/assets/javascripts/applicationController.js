@@ -47,7 +47,7 @@ ApplicationController.prototype = {
     this.mapView.appendMarker(this.map, checkin, response)
   },
   handleCheckinError: function (response) {
-    alert('Sorry, we couldn\'t find you.')
+    alert(response.responseText)
   },
   getLastCheckin: function() {
     var lastCheckinPosition = this.checkins.length - 1

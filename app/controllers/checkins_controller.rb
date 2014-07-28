@@ -39,12 +39,18 @@ class CheckinsController < ApplicationController
         render :json => {location: location.name, artist: nil, latitude: latitude, longitude: longitude }
       end
     else
-      render :text => "You are not inside Outside Lands!", status: :unprocessable_entity
+      osl = Location.find(1).boundary
+      distance = meters_to_miles(here.distance(osl))
+      render :text => "You are #{distance.round(2)} miles from Outside Lands!", status: :unprocessable_entity
     end
   end
 
 private
   def checkins_params
     params.permit(:user_id, :location_id, :position)
-  end  
+  end
+
+  def meters_to_miles(meters)
+    (meters * 3.28) / 5280
+  end
 end
