@@ -155,3 +155,8 @@ img.cover {
   background-color: #45332F;
   text-align: center;
 }
+
+.play-button iframe {
+  width: 90%;
+  max-width: 300px;
+}
