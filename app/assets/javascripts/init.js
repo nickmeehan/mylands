@@ -15,7 +15,7 @@ var mapOptions = {
   infoControl: false,
   center: [37.7691892, -122.4898206],
   zoom: 16,
-  minZoom: 15,
+  // minZoom: 14,
   maxZoom: 17,
   attributionControl: false,
   zoomControl: false
