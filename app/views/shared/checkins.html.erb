@@ -8,13 +8,13 @@
     <% if checkin.artist %>
       <div class="checkin-location checkin-artist" data-echonest="<%= "#{checkin.artist.echonest_id}" %>">
         <h2><%= checkin.location.name %></h1>
-        <h4><%= "#{checkin.created_at.strftime("%A %_m/%d - %l:%M%P")}" %></h4>
+        <h4><%= "#{checkin.created_at.in_time_zone("Pacific Time (US & Canada)").strftime("%A %_m/%d - %l:%M%P")}" %></h4>
         <h1><%= checkin.artist.name %></h2>
       </div>
     <% else %>
         <div class="checkin-location">
           <h2><%= checkin.location.name %></h2>
-          <h4><%= "#{checkin.created_at.strftime("%A %_m/%d - %l:%M%P")}" %></h4>
+          <h4><%= "#{checkin.created_at.in_time_zone("Pacific Time (US & Canada)").strftime("%A %_m/%d - %l:%M%P")}" %></h4>
         </div>
     <% end %>
   <% end %>
