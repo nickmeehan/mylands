@@ -69,7 +69,6 @@ ApplicationController.prototype = {
   handleUserCheckinsError: function(response){
   },
   loadArtistData: function(event) {
-    console.log(event.currentTarget.attributes[1].value);
     var echonestId = event.currentTarget.attributes[1].value;
     var ajaxRequest = $.ajax({
       url: 'http://developer.echonest.com/api/v4/artist/profile?api_key=MJKPEKGWSRULLKC5V&id='+echonestId+'&bucket=genre&bucket=artist_location&bucket=songs&bucket=images&bucket=biographies&bucket=reviews',
@@ -83,25 +82,28 @@ ApplicationController.prototype = {
     this.artist = artist
     var artist_name = artist.name.split(' ').join('%20');
     var song_title = artist.songs[0].title.split(' ').join('%20');
-
     var ajaxRequest = $.ajax({
-      url: 'http://developer.echonest.com/api/v4/song/search?api_key=MJKPEKGWSRULLKC5V&title='+song_title+'&artist='+artist_name+'&bucket=id:spotify&results=5&bucket=tracks',
+      url: 'http://developer.echonest.com/api/v4/song/search?api_key=MJKPEKGWSRULLKC5V&artist='+artist_name+'&sort=song_hotttnesss-desc&bucket=id:spotify&results=5&bucket=tracks',
       type: 'get'
     })
     ajaxRequest.done(this.handleSongSuccess.bind(this));
     ajaxRequest.fail(this.handleSongError.bind(this));
   },
   handleEchonestError: function (response) {
-    console.log(response);
   },
   handleSongSuccess: function (response) {
-    console.log(response);
-    var spotifyTrackId = response.response.songs[0].tracks[0].foreign_id;
+    var songs = response.response.songs
+    tracks = []
+    for(var i = 0; i < 5; i++){
+      if(songs[i].tracks[0]){
+        tracks.push(songs[i].tracks[0].foreign_id)
+      }
+    }
+    var spotifyTrackId = tracks[0]
     var href = 'https://embed.spotify.com/?uri=' + spotifyTrackId
     this.checkinView.showArtistDetails(this.artist, href);
   },
   handleSongError: function (response) {
-    console.log(response);
   },
   dismissArtistDetails: function (event) {
     this.checkinView.hideArtistDetails();

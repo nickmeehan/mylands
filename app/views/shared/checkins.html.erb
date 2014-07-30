@@ -6,7 +6,7 @@
 <div class='checkin-container ol-brown'>
   <% @checkins.each do |checkin| %>
     <% if checkin.artist %>
-      <div class="checkin-location checkin-artist" data-echonest="#{checkin.artist.echonest_id}">
+      <div class="checkin-location checkin-artist" data-echonest="<%= "#{checkin.artist.echonest_id}" %>">
         <h2><%= checkin.location.name %></h1>
         <h4><%= "#{checkin.created_at.strftime("%A %_m/%d - %l:%M%P")}" %></h4>
         <h1><%= checkin.artist.name %></h2>
