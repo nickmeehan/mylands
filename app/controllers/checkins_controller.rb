@@ -37,7 +37,7 @@ class CheckinsController < ApplicationController
       artist_name = performance ? performance.artist.name : nil
       render :json => {location: location.name, artist: artist_name, latitude: latitude, longitude: longitude, time: now}
     else
-      osl = Location.find(1).boundary
+      osl = Location.find_by_name("Outside Lands").boundary
       distance = meters_to_miles(here.distance(osl))
       render :text => "You are #{distance.round(2)} miles from Outside Lands!", status: :unprocessable_entity
     end

@@ -1,6 +1,8 @@
 <div class="ol-orange title">My Lands</div>
 <div class="stripe">• GREETINGS •</div>
 <img src="http://www.sfoutsidelands.com/images/admat/2014m-lg.png" class="cover">
-<%= form_for @user do |f| %>
-  <%= f.submit 'sign in with Twitter', class: "btn twitter shadow" %>
-<% end %>
+<div class="sign_in">
+  <%= form_for @user do |f| %>
+    <%= f.submit 'Sign In with Twitter', class: "btn twitter shadow" %>
+  <% end %>
+</div>

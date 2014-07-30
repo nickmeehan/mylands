@@ -82,30 +82,31 @@ body {
 }
 
 .btn {
-	display: table;
+  width: 90%;
+  max-width: 300px;
+	display: inline-block;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0px;
   color: #ffffff;
   font-size: 20px;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
   margin: auto;
-  margin-top: 10px;
   border: 1px solid white;
 }
 
 .wrapper {
-	padding-left: 25px;
 }
 
 #left-btn {
-	float: left;
-	top: 15px;
+  width: 48%;
+  display: inline-block;
 }
 
 #right-btn {
-	margin-left: 10px;
+  width: 48%;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -114,6 +115,8 @@ body {
 
 .twitter {
 	background-color: #55ACEE;
+  width: 90%;
+  max-width: none;
 }
 
 body {
@@ -140,4 +143,20 @@ img.cover {
 	position: absolute;
 	z-index: 1;
 	width: 100%;
+}
+
+.leaflet-bottom .leaflet-control {
+  margin-bottom: 30px;
+}
+
+.sign_in {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #45332F;
+  text-align: center;
+}
+
+.play-button iframe {
+  width: 90%;
+  max-width: 300px;
 }

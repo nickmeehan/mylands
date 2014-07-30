@@ -12,6 +12,7 @@ ApplicationController.prototype = {
   init: function () {
     this.bindListeners();
     this.map = L.mapbox.map('map', 'nickmeehan.j2n2k9kp', this.mapOptions)
+    new L.Control.Zoom({ position: 'bottomright' }).addTo(this.map)
     this.mapView.overlayMapImage(this.map)
     this.getUserCheckins()
   },
@@ -31,11 +32,9 @@ ApplicationController.prototype = {
     var checkin = new Checkin(lat, lng, timestamp);
     this.checkins.push(checkin)
     var datetime = new Date(2014, 7, 8, 18, 20,0,0)
-    // console.log(datetime)
     var ajaxRequest = $.ajax({
       url: clickEvent.target.form.action,
       type: clickEvent.target.form.method,
-      // data: new Checkin(37.768545, -122.4924813, timestamp)
       data: new Checkin(37.766642 + Math.random()*.0042271, -122.4956086+Math.random()*.013415, datetime)
       // data: checkin
     })
@@ -69,7 +68,6 @@ ApplicationController.prototype = {
   handleUserCheckinsError: function(response){
   },
   loadArtistData: function(event) {
-    console.log(event.currentTarget.attributes[1].value);
     var echonestId = event.currentTarget.attributes[1].value;
     var ajaxRequest = $.ajax({
       url: 'http://developer.echonest.com/api/v4/artist/profile?api_key=MJKPEKGWSRULLKC5V&id='+echonestId+'&bucket=genre&bucket=artist_location&bucket=songs&bucket=images&bucket=biographies&bucket=reviews',
@@ -83,25 +81,28 @@ ApplicationController.prototype = {
     this.artist = artist
     var artist_name = artist.name.split(' ').join('%20');
     var song_title = artist.songs[0].title.split(' ').join('%20');
-
     var ajaxRequest = $.ajax({
-      url: 'http://developer.echonest.com/api/v4/song/search?api_key=MJKPEKGWSRULLKC5V&title='+song_title+'&artist='+artist_name+'&bucket=id:spotify&results=5&bucket=tracks',
+      url: 'http://developer.echonest.com/api/v4/song/search?api_key=MJKPEKGWSRULLKC5V&artist='+artist_name+'&sort=song_hotttnesss-desc&bucket=id:spotify&results=5&bucket=tracks',
       type: 'get'
     })
     ajaxRequest.done(this.handleSongSuccess.bind(this));
     ajaxRequest.fail(this.handleSongError.bind(this));
   },
   handleEchonestError: function (response) {
-    console.log(response);
   },
   handleSongSuccess: function (response) {
-    console.log(response);
-    var spotifyTrackId = response.response.songs[0].tracks[0].foreign_id;
+    var songs = response.response.songs
+    tracks = []
+    for(var i = 0; i < 5; i++){
+      if(songs[i].tracks[0]){
+        tracks.push(songs[i].tracks[0].foreign_id)
+      }
+    }
+    var spotifyTrackId = tracks[0]
     var href = 'https://embed.spotify.com/?uri=' + spotifyTrackId
     this.checkinView.showArtistDetails(this.artist, href);
   },
   handleSongError: function (response) {
-    console.log(response);
   },
   dismissArtistDetails: function (event) {
     this.checkinView.hideArtistDetails();
