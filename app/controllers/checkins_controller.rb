@@ -31,10 +31,6 @@ class CheckinsController < ApplicationController
       checkin = location.checkins.new checkins_params
       checkin.user_id = current_user.id
       checkin.position = here
-      print "\n"*20
-      p "time from client:" + "#{now}"
-      p "time of first performance:" + "#{Performance.first.start_time}"
-      p "artist name:" + "#{Performance.first.artist.name}"
       performance = location.performances.where("start_time <= ? AND end_time >= ?", now, now).first
       checkin.artist = performance.artist if performance
       checkin.save
