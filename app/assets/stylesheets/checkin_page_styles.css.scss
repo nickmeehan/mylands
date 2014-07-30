@@ -48,9 +48,13 @@ header h1 {
   box-shadow: 5px 7px 4px rgba(0, 0, 0, 0.5);
 }
 .exit {
+  position: fixed;
+  right: 20px;
   height: 50px;
   width: 50px;
   float: right;
+  z-index: 10;
+
 }
 .exit img {
   width: 50px;
@@ -73,6 +77,9 @@ img.artist-photo {
   border: solid 2px #FFFFFF;
   display: block;
   margin: 20px auto;
+  @media (max-width: 400px) {
+    display: none;
+  }
 }
 .checkin-container {
   margin: 0 auto;
