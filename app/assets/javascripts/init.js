@@ -17,7 +17,8 @@ var mapOptions = {
   zoom: 16,
   minZoom: 15,
   maxZoom: 17,
-  attributionControl: false
+  attributionControl: false,
+  zoomControl: false
 }
 
 var mapOverlay = {

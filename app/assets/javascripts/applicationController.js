@@ -12,6 +12,7 @@ ApplicationController.prototype = {
   init: function () {
     this.bindListeners();
     this.map = L.mapbox.map('map', 'nickmeehan.j2n2k9kp', this.mapOptions)
+    new L.Control.Zoom({ position: 'bottomright' }).addTo(this.map)
     this.mapView.overlayMapImage(this.map)
     this.getUserCheckins()
   },
@@ -31,11 +32,9 @@ ApplicationController.prototype = {
     var checkin = new Checkin(lat, lng, timestamp);
     this.checkins.push(checkin)
     var datetime = new Date(2014, 7, 8, 18, 20,0,0)
-    // console.log(datetime)
     var ajaxRequest = $.ajax({
       url: clickEvent.target.form.action,
       type: clickEvent.target.form.method,
-      // data: new Checkin(37.768545, -122.4924813, timestamp)
       data: new Checkin(37.766642 + Math.random()*.0042271, -122.4956086+Math.random()*.013415, datetime)
       // data: checkin
     })
