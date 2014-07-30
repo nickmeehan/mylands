@@ -68,13 +68,11 @@ header h1 {
 }
 
 img.artist-photo {
-  width: 400px;
+  width: 75%;
+  max-width: 400px;
   border: solid 2px #FFFFFF;
   display: block;
   margin: 20px auto;
-  @media (max-width: 400px) {
-    display: none;
-  }
 }
 .checkin-container {
   margin: 0 auto;
